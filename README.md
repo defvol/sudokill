@@ -1,5 +1,5 @@
 # sudokill
-Solving Sudoku under 1ms using Constraint Programming
+Solving Sudoku under 1s using Constraint Programming
 
 ![sudokill](https://github.com/rodowi/sudokill/blob/master/screenshot.png)
 
