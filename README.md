@@ -8,7 +8,7 @@ Solving Sudoku using Constraint Programming
 Needs Python 3.6+ and [ortools](https://developers.google.com/optimization/).
 
 ```sh
-python cli --csv unsolved-sudoku.csv
+python cli.py --csv unsolved-sudoku.csv
 ```
 
 Sudoku boards are loaded in CSV format, e.g. [01.csv](https://github.com/rodowi/sudokill/blob/master/01.csv)
