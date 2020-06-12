@@ -52,10 +52,8 @@ def get_solution(solver, cells):
 
 def print_grid(grid):
     for i in range(9):
-        for j in range(9):
-            print grid[i][j],
-            if j % 3 == 2:
-                print '|',
-        print ''
+        grid[i].insert(3, '|')
+        grid[i].insert(7, '|')
+        print(' '.join(map(str, grid[i])))
         if i % 3 == 2:
-            print '- ' * 12
+            print('-' * 21)

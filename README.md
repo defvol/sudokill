@@ -1,11 +1,11 @@
 # sudokill
-Solving Sudoku under 1s using Constraint Programming
+Solving Sudoku using Constraint Programming
 
 ![sudokill](https://github.com/rodowi/sudokill/blob/master/screenshot.png)
 
 ### Running
 
-Needs Python 2.7 and [ortools](https://developers.google.com/optimization/).
+Needs Python 3.6+ and [ortools](https://developers.google.com/optimization/).
 
 ```sh
 python cli --csv unsolved-sudoku.csv
